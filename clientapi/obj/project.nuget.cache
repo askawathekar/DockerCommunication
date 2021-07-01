@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y7MpUFEpNkX6wcIhtcP7lMMg83AVc1paGLRrLDTJEGUIM5mApuT5E8w681I2CwoM/diZwlVJxkX7CvUthNlM/g==",
+  "success": true,
+  "projectFilePath": "D:\\DockerAppCommunication\\DockerCommunication\\ClientAPP\\clientapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anandk4\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

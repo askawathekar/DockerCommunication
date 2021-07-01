@@ -1,0 +1,19 @@
+version: "3.0"
+services: 
+    patientapi: # name of the service
+    container_name: patientserv # the container name in which the image will be loaded
+    ports:  # port from local mapped with the container 
+        - 9005:80
+    build: patientapi     # the folder from where the the dockerfile is read
+  
+    doctorapi:
+    container_name: doctorserv
+    ports: 
+        - 9006:80
+    build: doctorapi
+
+    clientapp:
+        container_name: clientapp
+        ports: 
+            - 9007:80
+        build: clientapp
